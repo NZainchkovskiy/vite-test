@@ -3,7 +3,8 @@ import { defineConfig } from "vite";
 import { resolve } from "path";
 // https://vitejs.dev/config/
 
-module.exports = {
+export default defineConfig({
+  plugins: [reactRefresh()],
   build: {
     rollupOptions: {
       input: {
@@ -14,7 +15,4 @@ module.exports = {
       },
     },
   },
-};
-export default defineConfig({
-  plugins: [reactRefresh()],
 });
