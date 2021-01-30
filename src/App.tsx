@@ -24,6 +24,10 @@ function App() {
           <a className="App-link" href="webpart2.html" target="_self" rel="noopener noreferrer">
             WebPart2
           </a>
+          {" | "}
+          <a className="App-link" href="webpart3.html" target="_self" rel="noopener noreferrer">
+            WebPart3
+          </a>
         </p>
       </header>
     </div>
